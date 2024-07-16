@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/MyCount',
       name: 'MyCount',
       component: () => import('../views/MyCount.vue')
+    },
+    {
+      path: '/MyInput',
+      name: 'MyInput',
+      component: () => import('../views/MyInput.vue')
     }
   ]
 })

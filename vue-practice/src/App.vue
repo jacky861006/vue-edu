@@ -17,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/MyCount">MyCount</RouterLink>
         <RouterLink to="/MyInput">MyInput</RouterLink>
         <RouterLink to="/MyAwesome">MyAwesome</RouterLink>
+        <RouterLink to="/MyTodo">MyTodo</RouterLink>
       </nav>
     </div>
   </header>

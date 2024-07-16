@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/makeMeRed',
       name: 'makeMeRed',
       component: () => import('../views/MakeMeRed.vue')
+    },
+    {
+      path: '/MyCount',
+      name: 'MyCount',
+      component: () => import('../views/MyCount.vue')
     }
   ]
 })
